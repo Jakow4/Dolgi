@@ -20,9 +20,6 @@ int main(){
       return 0;
 }
 
-
-
-
 char *func(char *name1, char *name2) {
   int j = 0;
   int i;
