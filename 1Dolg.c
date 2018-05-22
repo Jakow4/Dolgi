@@ -26,7 +26,6 @@ char *func(char *name1, char *name2) {
   int r;
 for(i=0; *(name1 + i) != '\0';i++) {
         j++;
-        *(name2 + i) = *(name1 + i);
       }
 
 for(i=0; *(name1 + i) != '\0';i++) {
