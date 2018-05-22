@@ -13,9 +13,6 @@ int main(){
       char *name2;
       name1 = (char*)malloc(sizeof(name1));
       name2 = (char*)malloc(sizeof(name2));
-      for(int i=0; *(name1 + i) != '\0';i++) {
-        *(name2 + i) = 0;
-      }
       scanf("%s", name1);
 
       *name2 = *func(name1, name2);
