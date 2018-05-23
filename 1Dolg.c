@@ -26,6 +26,9 @@ char *func(char *name1, char *name2) {
 for(i=0; *(name1 + i) != '\0';i++) {
     j++;
   }
+if(j % 2 == 1) {
+  j--;
+}
 
 for(i = 0; i <= j; i++) {
     if(i % 2 == 0) {
