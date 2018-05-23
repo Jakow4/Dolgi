@@ -4,8 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int numb(char *name1);
-
 char *func(char *name1, char *name2);
 
 int main(){
