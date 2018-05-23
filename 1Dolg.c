@@ -21,20 +21,22 @@ int main(){
 char *func(char *name1, char *name2) {
   int j = 0;
   int i;
-  int r;
-for(i=0; *(name1 + i) != '\0';i++) {
-        j++;
-      }
+  int r = 0;
 
 for(i=0; *(name1 + i) != '\0';i++) {
+    j++;
+  }
+
+for(i = 0; i <= j; i++) {
     if(i % 2 == 0) {
-      r = i/2;
+      r = r + j/2;
       *(name2 + r) = *(name1 + i);
     }
     else{
-      r =r + j/2;
+      r = r - j/2-1;
       *(name2 + r) = *(name1 + i);
     }
+    r++;
   }
   return name2;
 }
